@@ -1,11 +1,6 @@
 # exercise-1-modularity-rashmi2383
 exercise-1-modularity-rashmi2383 created by GitHub Classroom
 
-Required Python/3.6.0 or up
-
-To run:
-$python main_app.py
-
 Main_app integrates all the modules and works as expected.
 
 For Exercise-1, which tackles aysnchronous APIs in the modules, our architecture employs a queue based approach. The system takes input from the sensors and queues them up. Which provides data to the real time data processor for further processing. And once the data is processed, it is given to the display unit for displaying various statistics to the user. It also stores the data to the database with the current date and timestamp so that whenever further analysis needs to be done, at that point in time, the data is readily available.

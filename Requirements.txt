@@ -1,0 +1,8 @@
+Required:
+
+python/3.6.0 and up
+
+
+To run the app:
+
+$python main_app.py

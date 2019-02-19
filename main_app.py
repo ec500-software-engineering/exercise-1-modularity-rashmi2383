@@ -1,7 +1,5 @@
 import sensors
-import display
 import database
-import prediction_engine
 import notification_manager
 import notifications_sender
 import realtime_data_processor
@@ -33,7 +31,7 @@ def main(cmd_args):
     pressure_reader.start()
     real_time_proc.start()
 
-    db = database.TextToDatabase(tty)
+    #db = database.TextToDatabase(tty)
 
     oxy_reader.join()
     pressure_reader.join()

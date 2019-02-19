@@ -1,5 +1,4 @@
 import datetime
-import display
 
 class TextToDatabase:
     '''

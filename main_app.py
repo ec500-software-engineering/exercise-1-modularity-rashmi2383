@@ -1,5 +1,6 @@
 import sensors
 import database
+import display
 import notification_manager
 import notifications_sender
 import realtime_data_processor

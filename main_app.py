@@ -31,8 +31,8 @@ def main(cmd_args):
     pressure_reader.start()
     real_time_proc.start()
 
-    #db = database.TextToDatabase(tty)
-
+    db = database.TextToDatabase(tty)
+    print(db) 
     oxy_reader.join()
     pressure_reader.join()
     pulse_reader.join()
